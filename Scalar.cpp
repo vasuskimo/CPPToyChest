@@ -3,17 +3,18 @@ using namespace std;
 
 class Scalar
 {
-	public:
+    public:
 	
-	  explicit Scalar( int initialValue = 0 )
-	  { 
-		  storedValue = new int{ initialValue }; 
-	  }
+     explicit Scalar( int initialValue = 0 )
+     { 
+	 storedValue = new int{ initialValue };  
+     
+     }
 	
-	  ~Scalar( )  
-	  { 
-		  delete storedValue; 
-	  }
+    ~Scalar( )  
+    { 
+        delete storedValue; 
+    }
    
     Scalar ( const Scalar & rhs ) // Copy constructor
     { 
