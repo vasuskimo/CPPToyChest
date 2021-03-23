@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+// perfect forwarding is demonstrated
+// if you are forwarding a value category of type rvalue reference
+// std::forward() preserves the value category
+
 class C{};
 
 void f(C& c)
