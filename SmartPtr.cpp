@@ -1,9 +1,5 @@
 using namespace std;
 #include <iostream>
-
-#include <iostream> 
-using namespace std; 
-
 class SmartPtr 
 { 
 	int* ptr;
